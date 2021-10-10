@@ -10,9 +10,9 @@ Prometheus represents a monitoring solution for storing time series data like me
 In combination with an Alertmanager it becomes a viable solution to monitor and improve the overall uptime and performance of your Validator. Alertmanager can be used to define certain thresholds for which you will get alerted on Telegram, Discord, by SMS or many other mediums. Some example for possbile alerts: You can set your threshold for disk usage rate to 70% so that you will get alerted once that is reached in order to prepare for an upgrade for more disk space; low number of connected peers; validator is stuck (block height is not increasing over a certain period of time); validator is down; and much more.  
 
 ## Prerequisites
-* Enable export of tendermint metrics --> please check ExposeTendermintMetrics in this repo: https://github.com/Chainode/AxelarTools/blob/main/ExposeTendermintMetrics.md 
+* Enable export of tendermint metrics --> please check ExposeTendermintMetrics in this repo: https://github.com/Chainode/AxelarTools/blob/main/ExposeTendermintMetrics.md  
+* Node Exporter  --> please check guide InstallNodeExporter in this repo: https://github.com/Chainode/AxelarTools/blob/main/InstallNodeExporter.md  
 * Prometheus  --> please check InstallPrometheus in this repo: https://github.com/Chainode/AxelarTools/blob/main/InstallPrometheus.md  
-* Node Exporter  --> please check guide InstallNodeExporter in this repo: https://github.com/Chainode/AxelarTools/blob/main/InstallNodeExporter.md
 * Grafana  --> please check guide InstallGrafana in this repo: https://github.com/Chainode/AxelarTools/blob/main/InstallGrafana.md
 * Grafana Pie Chart plugin  --> please check guide InstallGrafana in this repo: https://github.com/Chainode/AxelarTools/blob/main/InstallGrafana.md  
 
