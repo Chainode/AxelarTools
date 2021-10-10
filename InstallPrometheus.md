@@ -15,7 +15,7 @@ sudo useradd -M -r -s /bin/false prometheus
 sudo mkdir /etc/prometheus /var/lib/prometheus  
 ```
 
-### Dowload binaries  
+### Download binaries  
 ```
 wget https://github.com/prometheus/prometheus/releases/download/v2.30.3/prometheus-2.30.3.linux-amd64.tar.gz  
 ```
